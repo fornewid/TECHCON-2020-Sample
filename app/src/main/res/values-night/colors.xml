@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#000000</color>
-    <color name="colorAccent">#00F2B2</color>
-    <color name="colorAccentTranslucent">#9900F2B2</color>
+    <color name="primary">#000000</color>
     <color name="colorBackground">#202020</color>
     <color name="surface_01">#FFFFFF</color>
     <color name="surface_02">#555555</color>
     <color name="surface_03">#666666</color>
+    <color name="surface_09">#000000</color>
 </resources>

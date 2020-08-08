@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FFFFFF</color>
-    <color name="colorAccent">#00F2B2</color>
-    <color name="colorAccentTranslucent">#9900F2B2</color>
+    <color name="primary">#FFFFFF</color>
     <color name="colorBackground">#F2F2F2</color>
     <color name="surface_01">#000000</color>
     <color name="surface_02">#CCCCCC</color>
     <color name="surface_03">#DDDDDD</color>
+    <color name="surface_09">#FFFFFF</color>
     <color name="alert">#FF2C2C</color>
 </resources>

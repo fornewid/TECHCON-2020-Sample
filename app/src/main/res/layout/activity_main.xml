@@ -43,28 +43,56 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
-            android:text="Chapter 04" />
+            android:text="Chapter 04 A" />
 
         <Button
             android:id="@+id/button_06"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
-            android:text="Chapter 05" />
+            android:text="Chapter 04 - AppCompat" />
 
         <Button
             android:id="@+id/button_07"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
-            android:text="Chapter 06" />
+            android:text="Chapter 04 - Material Design" />
 
         <Button
             android:id="@+id/button_08"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
+            android:text="Chapter 05" />
+
+        <Button
+            android:id="@+id/button_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="Chapter 06a" />
+
+        <Button
+            android:id="@+id/button_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="Chapter 06b" />
+
+        <Button
+            android:id="@+id/button_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
             android:text="Chapter 07" />
+
+        <Button
+            android:id="@+id/button_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="Chapter 08" />
 
     </LinearLayout>
 </ScrollView>

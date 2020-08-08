@@ -21,7 +21,18 @@
         <activity android:name=".Chapter02" />
         <activity android:name=".Chapter03a" />
         <activity android:name=".Chapter03b" />
+        <activity android:name=".Chapter04a" />
+        <activity android:name=".Chapter04b" />
+        <activity
+            android:name=".Chapter04c"
+            android:theme="@style/AppTheme.Material" />
         <activity android:name=".Chapter05" />
+        <activity android:name=".Chapter06a" />
+        <activity
+            android:name=".Chapter06b"
+            android:theme="@style/AppTheme.Light" />
+        <activity android:name=".Chapter07" />
+        <activity android:name=".Chapter08" />
     </application>
 
 </manifest>
