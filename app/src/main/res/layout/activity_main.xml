@@ -106,7 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
-            android:text="Chapter 08" />
+            android:text="Chapter 09" />
 
     </LinearLayout>
 </ScrollView>
