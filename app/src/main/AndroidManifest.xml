@@ -31,7 +31,9 @@
         <activity
             android:name=".Chapter06b"
             android:theme="@style/AppTheme.Light" />
-        <activity android:name=".Chapter07" />
+        <activity android:name=".Chapter07a" />
+        <activity android:name=".Chapter07b" />
+        <activity android:name=".Chapter07c" />
         <activity android:name=".Chapter08" />
     </application>
 

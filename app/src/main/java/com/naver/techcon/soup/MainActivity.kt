@@ -25,8 +25,10 @@ class MainActivity : AppCompatActivity() {
             R.id.button_08 -> startActivity(Intent(this, Chapter05::class.java))
             R.id.button_09 -> startActivity(Intent(this, Chapter06a::class.java))
             R.id.button_10 -> startActivity(Intent(this, Chapter06b::class.java))
-            R.id.button_11 -> startActivity(Intent(this, Chapter07::class.java))
-            R.id.button_12 -> startActivity(Intent(this, Chapter08::class.java))
+            R.id.button_11 -> startActivity(Intent(this, Chapter07a::class.java))
+            R.id.button_12 -> startActivity(Intent(this, Chapter07b::class.java))
+            R.id.button_13 -> startActivity(Intent(this, Chapter07c::class.java))
+            R.id.button_14 -> startActivity(Intent(this, Chapter08::class.java))
         }
     }
 }

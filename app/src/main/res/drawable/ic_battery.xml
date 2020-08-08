@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <layer-list>
+            <item android:drawable="@drawable/ic_battery_empty" />
+            <item>
+                <clip android:clipOrientation="vertical" android:drawable="@drawable/ic_battery_full" android:gravity="bottom" />
+            </item>
+            <item android:drawable="@drawable/ic_battery_charging" />
+        </layer-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:maxLevel="100" android:minLevel="0">
+                <layer-list>
+                    <item android:drawable="@drawable/ic_battery_empty" />
+                    <item android:drawable="@drawable/ic_battery_alert" />
+                </layer-list>
+            </item>
+            <item android:maxLevel="2000" android:minLevel="101">
+                <layer-list>
+                    <item android:drawable="@drawable/ic_battery_empty" />
+                    <item>
+                        <clip android:clipOrientation="vertical" android:drawable="@drawable/ic_battery_low" android:gravity="bottom" />
+                    </item>
+                </layer-list>
+            </item>
+            <item android:maxLevel="10000" android:minLevel="2001">
+                <layer-list>
+                    <item android:drawable="@drawable/ic_battery_empty" />
+                    <item>
+                        <clip android:clipOrientation="vertical" android:drawable="@drawable/ic_battery_full" android:gravity="bottom" />
+                    </item>
+                </layer-list>
+            </item>
+        </level-list>
+    </item>
+</selector>

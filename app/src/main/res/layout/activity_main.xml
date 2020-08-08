@@ -85,10 +85,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
-            android:text="Chapter 07" />
+            android:text="Chapter 07 A" />
 
         <Button
             android:id="@+id/button_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="Chapter 07 B" />
+
+        <Button
+            android:id="@+id/button_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClick"
+            android:text="Chapter 07 C" />
+
+        <Button
+            android:id="@+id/button_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onButtonClick"
